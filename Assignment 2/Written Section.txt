@@ -1,0 +1,74 @@
+Week 2, Day 2 Assignment Written Section:
+
+1. Access Modifiers and Combinations:
+
+	- Private:
+		Makes it so that whatever is declared private is only accessible inside its class/structure.
+	- Public:
+		Accessible from everywhere.
+	- Protected:
+		Accessible from within its own class and all classes derived from that class.
+	- Internal:
+		Accessible only inside the same assembly/project. 
+	- Protected Internal:
+		Combo of protected and internal. Only accessible in the same assembly or classes deriving from where the protected internal variable was declared.
+	- Private Protected: 
+		Accessible from inside containing class or class that derives from the containing class, but only in the same assembly.
+	2. 
+	
+		Constant:
+			- These fields or variables must be assigned a value at the time of declaration. Cannot be modified afterwards. Moreover, they must be fully evaluated at compile time, and are thus constant at compile time.
+			
+		Readonly:
+			- These fields or variables must be initialized at declaration or within the class constructor. These can only be used for runtime constants. Constant at run time, basically.
+		Static:
+			- Member common to all objects of a given class. 
+			
+	3. Special method that initializes an instance of an object of a given class type. Whenever an object of a given class is created, the constructer is run.
+	
+	4.  Basically allows other parts of a class, struct, or interface to be defined within a namespace. All of these separate parts must utilize the partial keyword, and must be available at compile time so as to create a single integrated final type. They must also have same accesibility. Two variables of a record type are equal if the record type definitions are identical, and if for every field, the values in both records are equal. Two variables of a class type are equal if the objects referred to are the same class type and the variables refer to the same object.
+	
+	5. Data structure containing a sequence of elements of different data types. 
+	
+	6. The record keyword basically allows you to use the record reference type which is a reference type distinct from classes in that it uses value based equaliy. Two variables of a record type are equal if the record type definitions are identical, and if for every field, the values in both records are equal. Two variables of a class type are equal if the objects referred to are the same class type and the variables refer to the same object.
+	
+	7. Overloading refers to naming functions similarly, but utilizing different number/types of input variables, or changing the order in which the input variables are inputted. 
+	Overriding is when a child class includes specific implementation of a method that is already provided by one of its parent classes. If the overriding method in the subclass has the same name, parameters, and return type as the method in the superclass, then the method in the subclass is overriding the method in the super class. 
+	
+	8. Properties expose fields. Fields should (almost always) be kept private to a class and accessed via get and set properties. Properties provide a level of abstraction allowing you to change the fields while not affecting the external way they are accessed by the things that use your class
+	
+	9. Using a default value, using method overloading, using the optional keyword, or the Params keyword
+	
+	10. Interfaces are basically a type of structure that allows us to enforce certain common functions on object classes. DIfferent from abstract classes through the following:
+		- Interfaces support multiple inheritance but abstract classes cannot.
+		- Interfaces cannot have instantiated constructors but abstract classes can.
+		- Interfaces by default have all members to be considered abstract and public, but abstracted classes can have both abstract and concrete members
+		- Interfaces cannot thave fields but abstract classes can have fields
+		
+	So, in short, an abstract class allows you to create functionality that subclasses can implement or override. An interface only allows you to define functionality, not implement it.
+	
+	11. public
+	
+	12. True
+	
+	13. True
+	
+	14. True
+	
+	15. True, if the class derives from the abstract class.
+	
+	16. True
+	
+	17. True
+	
+	18. True
+	
+	19. True
+	
+	20. If there is no defaul implementation of said member in the interface, then yes. 
+	
+	21. True
+	
+	22. Not in C#
+	
+	23. True
