@@ -11,16 +11,17 @@ Week 2, Day 2 Assignment Written Section:
 	- Internal:
 		Accessible only inside the same assembly/project. 
 	- Protected Internal:
-		Combo of protected and internal. Only accessible in the same assembly or classes deriving from where the protected internal variable was declared.
+		Combo of protected and internal. Accessible from any code in the assembly in which it was declared, or from another derived class in another assembly.
 	- Private Protected: 
 		Accessible from inside containing class or class that derives from the containing class, but only in the same assembly.
+		
 	2. 
-	
 		Constant:
 			- These fields or variables must be assigned a value at the time of declaration. Cannot be modified afterwards. Moreover, they must be fully evaluated at compile time, and are thus constant at compile time.
 			
 		Readonly:
 			- These fields or variables must be initialized at declaration or within the class constructor. These can only be used for runtime constants. Constant at run time, basically.
+			
 		Static:
 			- Member common to all objects of a given class. 
 			
